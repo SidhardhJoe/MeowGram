@@ -4,10 +4,13 @@ import { StyleSheet, Text, View, ScrollView } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <ScrollView style={styles.main}>
+      <ScrollView>
         <StatusBar backgroundColor="white"
           barStyle="light-content"></StatusBar>
         <StatusBar />
+
+
+
 
 
       </ScrollView>
