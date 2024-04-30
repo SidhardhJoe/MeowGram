@@ -5,9 +5,9 @@ const InputTextBox = () => {
     return (
         <View style={styles.container}>
             <TextInput style={styles.mainContainer}
-                placeholder="User Name"
-                onChangeText={onChangeText}
-            >hello</TextInput>
+                placeholder={placeholder}
+                onChangeText={onChangeText}>
+            </TextInput>
         </View>
     )
 }
@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 15,
         borderColor: "grey",
         borderWidth: 1,
-        justifyContent: "center",
-        borderRadius: 15
+        justifyContent: "center"
     }
 })

@@ -25,12 +25,14 @@ const styles = StyleSheet.create({
     },
     buttonNew: {
         height: 50,
-        width: 150,
-        backgroundColor: "#FFFADA",
+        width: 100,
+        backgroundColor: "white",
         justifyContent: "center",
         alignItems: "center",
         padding: 10,
-        borderRadius: 10
+        borderRadius: 10,
+        borderColor: "black",
+        borderWidth: 1,
 
     }
 })
