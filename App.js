@@ -1,36 +1,20 @@
 
 import { StyleSheet, View, ScrollView, Image } from 'react-native';
-import InputTextBox from './src/components/InputTextBox';
-import ButtonComponent from './src/components/ButtonComponent';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import LoginPage from './src/screen/LoginPage';
+import MainPage from './src/screen/MainPage';
 
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <View style={flex = 1}>
-      <ScrollView>
-        <View>
-          <Image source={require("./assets/Images/InstagramText.png")} style={styles.logo} />
-        </View>
-        <View style={styles.inputbox}>
-          <InputTextBox placeholder={"UserName"} />
-        </View>
-        <View style={{ marginTop: "3%" }}>
-          <InputTextBox />
-        </View>
-        <View>
-          <ButtonComponent />
-        </View>
-      </ScrollView >
-    </View >
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="LoginPage" component={LoginPage} />
+        <Stack.Screen name="MainPage" component={MainPage} />
+      </Stack.Navigator>
+
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  logo: {
-    marginTop: "60%",
-    height: 100,
-    width: 250,
-    marginLeft: "20%",
-    objectFit: "contain"
-  }
-});

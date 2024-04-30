@@ -1,7 +1,7 @@
-import { View, placeholder, StyleSheet, TextInput, onChangeText } from 'react-native'
+import { View, StyleSheet, TextInput, onChangeText } from 'react-native'
 import React from 'react'
 
-const InputTextBox = () => {
+const InputTextBoxo = ({ placeholder }) => {
     return (
         <View style={styles.container}>
             <TextInput style={styles.mainContainer}
@@ -12,7 +12,7 @@ const InputTextBox = () => {
     )
 }
 
-export default InputTextBox
+export default InputTextBoxo
 const styles = StyleSheet.create({
     container: {
         alignItems: "center"
@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 15,
         borderColor: "grey",
         borderWidth: 1,
+        borderRadius: 5,
         justifyContent: "center"
     }
 })
