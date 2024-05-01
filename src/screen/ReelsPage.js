@@ -3,7 +3,7 @@ import React from 'react'
 
 const ReelsPage = () => {
     return (
-        <View style={{ height: "100%" }}>
+        <View >
             <Text>ReelsPage</Text>
         </View>
     )

@@ -10,7 +10,6 @@ const BottomNavigation = () => {
     return (
         <Tab.Navigator screenOptions={{ headerShown: false }}>
             <Tab.Screen name=" " component={RecommendationsPage}
-
                 options={{
                     tabBarLabel: () => null,
                     tabBarIcon: () => (
@@ -18,7 +17,6 @@ const BottomNavigation = () => {
                             <Image source={require('../../assets/Images/home.png')} style={{
                                 height: 30,
                                 width: 30,
-                                marginTop: "10%"
                             }} />
                         </View>
                     )

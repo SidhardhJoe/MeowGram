@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProfilePage = () => {
     return (
-        <View style={{ height: "100%" }}>
+        <View >
             <Text>ProfilePage</Text>
         </View>
     )

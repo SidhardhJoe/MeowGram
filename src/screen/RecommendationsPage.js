@@ -3,7 +3,7 @@ import React from 'react'
 
 const RecommendationsPage = () => {
     return (
-        <View style={{ height: "100%" }}>
+        <View style={{ backgroundColor: "red", height: "100%" }}>
             <Text>RecommendationsPage</Text>
         </View>
     )
