@@ -4,6 +4,7 @@ import { StyleSheet } from 'react-native-web'
 import Story from '../components/Story'
 
 const RecommendationsPage = () => {
+
     return (
         <ScrollView style={{ height: "100%" }}>
             <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>

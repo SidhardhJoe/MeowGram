@@ -49,6 +49,7 @@ const MainPage = () => {
                 <Image source={require("../../assets/Images/InstagramText.png")} style={styles.iglogo} />
                 <Image source={require("../../assets/Images/send.png")} style={styles.chat} />
             </View>
+
             <BottomNavigation selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
         </View>
     )
