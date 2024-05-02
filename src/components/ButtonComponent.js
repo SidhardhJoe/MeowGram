@@ -1,8 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { NavigationContainer, useNavigation } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import MainPage from '../screen/MainPage';
 
 const ButtonComponent = () => {
     const navigation = useNavigation();

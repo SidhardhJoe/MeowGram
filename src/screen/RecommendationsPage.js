@@ -2,6 +2,7 @@ import { View, Text, ScrollView, Image } from 'react-native'
 import React from 'react'
 import { StyleSheet } from 'react-native-web'
 import Story from '../components/Story'
+import PostComponent from '../components/PostComponent'
 
 const RecommendationsPage = () => {
 
@@ -69,6 +70,10 @@ const RecommendationsPage = () => {
                     </View>
                 </View>
             </ScrollView>
+            <PostComponent />
+            <PostComponent />
+            <PostComponent />
+            <PostComponent />
         </ScrollView>
     )
 }

@@ -47,9 +47,8 @@ const MainPage = () => {
                     <Image source={require("../../assets/Images/camera.png")} style={styles.camera} />
                 </TouchableOpacity>
                 <Image source={require("../../assets/Images/MeowGram.png")} style={styles.iglogo} />
-                <Image source={require("../../assets/Images/send.png")} style={styles.chat} />
+                <Image source={require("../../assets/Images/chat.png")} style={styles.chat} />
             </View>
-
             <BottomNavigation selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
         </View>
     )
@@ -77,6 +76,7 @@ const styles = StyleSheet.create({
     chat: {
         height: 40,
         width: 40,
-        marginTop: "10%"
+        marginTop: "10%",
+        marginRight: "1%"
     }
 });
