@@ -3,6 +3,7 @@ import React from 'react'
 import { ScrollView } from 'react-native'
 import EditProfileButton from '../components/EditProfileButton'
 import ShareProfileButton from '../components/ShareProfileButton'
+import GalleryComponent from '../components/GalleryComponent'
 
 const ProfilePage = () => {
     return (
@@ -13,15 +14,15 @@ const ProfilePage = () => {
                     <Text style={{ textAlign: "center", fontWeight: "500", fontSize: 18 }}>Ivana_</Text>
                 </View>
                 <View style={{ flexDirection: "row" }}>
-                    <View style={{ paddingLeft: 30, paddingTop: 45 }}>
+                    <View style={{ paddingLeft: 15, paddingTop: 45 }}>
                         <Text style={{ textAlign: "center", fontSize: 20, fontWeight: "500" }}>3</Text>
                         <Text>Posts</Text>
                     </View>
-                    <View style={{ paddingLeft: 30, paddingTop: 45 }}>
+                    <View style={{ paddingLeft: 20, paddingTop: 45 }}>
                         <Text style={{ textAlign: "center", fontSize: 20, fontWeight: "500" }}>758</Text>
                         <Text>Followers</Text>
                     </View>
-                    <View style={{ paddingLeft: 30, paddingTop: 45 }}>
+                    <View style={{ paddingLeft: 20, paddingTop: 45 }}>
                         <Text style={{ textAlign: "center", fontSize: 20, fontWeight: "500" }}>250</Text>
                         <Text>Following</Text>
                     </View>
@@ -39,6 +40,9 @@ const ProfilePage = () => {
                 <View style={{ marginLeft: 10 }}>
                     <ShareProfileButton />
                 </View>
+            </View>
+            <View>
+                <GalleryComponent />
             </View>
         </ScrollView >
     )

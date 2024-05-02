@@ -46,7 +46,7 @@ const MainPage = () => {
                 <TouchableOpacity onPress={requestCameraPermission}>
                     <Image source={require("../../assets/Images/camera.png")} style={styles.camera} />
                 </TouchableOpacity>
-                <Image source={require("../../assets/Images/InstagramText.png")} style={styles.iglogo} />
+                <Image source={require("../../assets/Images/MeowGram.png")} style={styles.iglogo} />
                 <Image source={require("../../assets/Images/send.png")} style={styles.chat} />
             </View>
 

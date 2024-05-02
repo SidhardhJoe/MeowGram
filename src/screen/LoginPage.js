@@ -10,7 +10,7 @@ export default function LoginPage() {
 
         <ScrollView>
             <View>
-                <Image source={require("../../assets/Images/InstagramText.png")} style={styles.logo} />
+                <Image source={require("../../assets/Images/MeowGram.png")} style={styles.logo} />
             </View>
             <View style={styles.inputbox}>
                 <InputTextBoxo placeholder="UserName" />
