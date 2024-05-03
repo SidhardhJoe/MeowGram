@@ -3,6 +3,7 @@ import React from 'react'
 import { StyleSheet } from 'react-native-web'
 import Story from '../components/Story'
 import PostComponent from '../components/PostComponent'
+import Post1 from '../components/PostComponents/Post1'
 
 const RecommendationsPage = () => {
 
@@ -71,9 +72,7 @@ const RecommendationsPage = () => {
                 </View>
             </ScrollView>
             <PostComponent />
-            <PostComponent />
-            <PostComponent />
-            <PostComponent />
+            <Post1 />
         </ScrollView>
     )
 }
