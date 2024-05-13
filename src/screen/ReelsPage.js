@@ -5,14 +5,41 @@ import LargeImageComponent from '../components/PostComponents/LargeImageComponen
 
 const ReelsPage = () => {
     return (
-        <ScrollView contentContainerStyle={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }} >
+        <ScrollView contentContainerStyle={{ display: "flex" }} >
             <View style={{ flexDirection: "row" }}>
-                <ReelsPageComponent />
-                <ReelsPageComponent />
+                <View style={{ flexDirection: "row", width: "63.3%", flexWrap: "wrap" }}>
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                </View>
+                <View>
+                    <LargeImageComponent />
+                </View>
             </View>
-            <LargeImageComponent />
-            <ReelsPageComponent />
-        </ScrollView>
+            <View style={{ flexDirection: "row" }}>
+                <View style={{ flexDirection: "row", width: "63.3%", flexWrap: "wrap" }}>
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                </View>
+                <View>
+                    <LargeImageComponent />
+                </View>
+            </View>
+            <View style={{ flexDirection: "row" }}>
+                <View style={{ flexDirection: "row", width: "63.3%", flexWrap: "wrap" }}>
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                    <ReelsPageComponent />
+                </View>
+                <View>
+                    <LargeImageComponent />
+                </View>
+            </View>
+        </ScrollView >
     )
 }
 
