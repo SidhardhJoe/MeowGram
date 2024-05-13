@@ -8,7 +8,7 @@ export default function ReelsPageComponent() {
         height: 150,
         width: 130,
         borderColor: "white",
-        borderWidth: 1
+        borderWidth: 0.5
       }} />
     </View>
   )
